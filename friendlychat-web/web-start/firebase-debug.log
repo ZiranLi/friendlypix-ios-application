@@ -1,0 +1,36 @@
+[debug] [2017-11-16T19:41:16.562Z] ----------------------------------------------------------------------
+[debug] [2017-11-16T19:41:16.564Z] Command:       /usr/local/bin/node /Users/emanon/.npm-global/bin/firebase serve
+[debug] [2017-11-16T19:41:16.564Z] CLI Version:   3.15.1
+[debug] [2017-11-16T19:41:16.564Z] Platform:      darwin
+[debug] [2017-11-16T19:41:16.564Z] Node Version:  v8.9.1
+[debug] [2017-11-16T19:41:16.564Z] Time:          Thu Nov 16 2017 14:41:16 GMT-0500 (EST)
+[debug] [2017-11-16T19:41:16.565Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-16T19:41:16.574Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-16T19:41:16.575Z] > authorizing via signed-in user
+[debug] [2017-11-16T19:41:16.576Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-16T19:41:16.576Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/dxLnNYQ-uMlJiwy16JTf6qCCgstyBANjzqr-1zFm70Q',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Nov 16 2017 14:41:16 GMT-0500 (EST)
+[debug] [2017-11-16T19:41:16.772Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-16T19:41:16.790Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-37e36  
+ Thu Nov 16 2017 14:41:16 GMT-0500 (EST)
+[debug] [2017-11-16T19:41:17.094Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-16T19:41:17.095Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendlychat-37e36/tokens  
+ Thu Nov 16 2017 14:41:17 GMT-0500 (EST)
+[debug] [2017-11-16T19:41:17.515Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/emanon/Downloads/friendlychat-web-master/web-start'...
+[info] 
+[debug] [2017-11-16T19:41:17.518Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-37e36  
+ Thu Nov 16 2017 14:41:17 GMT-0500 (EST)
+[debug] [2017-11-16T19:41:17.875Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-16T19:41:17.875Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/221100873827/clients/_:getWebAppConfig  
+ Thu Nov 16 2017 14:41:17 GMT-0500 (EST)
+[debug] [2017-11-16T19:41:18.156Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
